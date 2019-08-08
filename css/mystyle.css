@@ -1,0 +1,467 @@
+/*Example 1*/
+/*.container {
+	display:flex;
+	border: 2px solid blue;
+}
+
+.box {
+	width: 50px;
+	background: blue;
+	border: 2px solid white;
+}
+*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*Example 2*/
+/*.container {
+	display:flex;
+	border: 2px solid blue;
+}
+
+.box {
+	width: 500px;
+	background: blue;
+	border: 2px solid white;
+}*/
+
+
+/*----------------------------------------------------------flex-direction-----------------------------------------------------------------*/
+
+/*Example 3*/
+/*.container {
+	display:flex;
+	flex-direction: row-reverse;
+	border: 2px solid blue;
+}
+
+.box {
+	width: 50px;
+	background: blue;
+	border: 2px solid white;
+}*/
+
+
+/*--------------------------------------------------------------flex-direction-------------------------------------------------------------*/
+
+/*Example 4*/
+/*.container {
+	display:flex;
+	flex-direction: column;
+	border: 2px solid blue;
+}
+
+.box {
+	width: 50px;
+	background: blue;
+	border: 2px solid white;
+}*/
+
+
+/*------------------------------------------------------------------flex-direction---------------------------------------------------------*/
+
+/*Example 5*/
+/*.container {
+	display:flex;
+	flex-direction: column-reverse;
+	border: 2px solid blue;
+}
+
+.box {
+	width: 50px;
+	background: blue;
+	border: 2px solid white;
+}*/
+
+
+
+/*-----------------------------------------------------------flex-wrap----------------------------------------------------------------*/
+
+/*Example 6*/
+/*.container {
+	display:flex;
+	flex-wrap: wrap;
+	border: 2px solid blue;
+}
+
+.box {
+	width: 33%;
+	background: blue;
+	border: 2px solid white;
+}*/
+
+
+/*--------------------------------------------------------------flex-wrap-------------------------------------------------------------*/
+
+/*Example 7*/
+/*.container {
+	display:flex;
+	flex-wrap: wrap-reverse;
+	border: 2px solid blue;
+}
+
+.box {
+	width: 33%;
+	background: blue;
+	border: 2px solid white;
+}*/
+
+
+
+/*-----------------------------------------------------------------justify-content----------------------------------------------------------*/
+
+/*Example 8*/
+/*.container {
+	display:flex;
+	justify-content: flex-start;   Output will be same as example 1
+	border: 2px solid blue;
+}
+
+.box {
+	width: 50px;
+	background: blue;
+	border: 2px solid white;
+}
+*/
+
+/*-------------------------------------------------------justify-content--------------------------------------------------------------------*/
+
+/*Example 9*/
+/*.container {
+	display:flex;
+	justify-content: flex-end;   
+	border: 2px solid blue;
+}
+
+.box {
+	width: 50px;
+	background: blue;
+	border: 2px solid white;
+}*/
+
+
+
+/*---------------------------------------------------------justify-content------------------------------------------------------------------*/
+
+/*Example 10*/
+/*.container {
+	display:flex;
+	justify-content: center;   
+	border: 2px solid blue;
+}
+
+.box {
+	width: 50px;
+	background: blue;
+	border: 2px solid white;
+}*/
+
+
+/*------------------------------------------------------------justify-content---------------------------------------------------------------*/
+
+/*Example 11*/
+/*.container {
+	display:flex;
+	justify-content: space-between;   
+	border: 2px solid blue;
+}
+
+.box {
+	width: 50px;
+	background: blue;
+	border: 2px solid tomato;
+}*/
+
+
+
+/*------------------------------------------------------------justify-content----------------------------------------------------------------*/
+
+/*Example 12*/
+/*.container {
+	display:flex;
+	justify-content: space-around; 
+	border: 2px solid blue;
+}
+
+.box {
+	width: 50px;
+	background: blue;
+	border: 2px solid tomato;
+}*/
+
+
+
+/*----------------------------------------------------------align-items-----------------------------------------------------------------*/
+
+/*Example 13*/
+/*.container {
+	display:flex;
+	justify-content: space-around;   
+	border: 2px solid blue;
+	align-items: flex-start;    works on y axis(sticks to left), while 'justify-content: flex-start' works on x axis(sticks to top)
+	height: 50vh;
+}
+
+.box {
+	width: 50px;
+	background: blue;
+	border: 2px solid tomato;
+}*/
+
+
+/*--------------------------------------------------------------align-items-------------------------------------------------------------*/
+
+/*Example 14*/
+/*.container {
+	display:flex;
+	justify-content: space-around; 
+	border: 2px solid blue;
+	align-items: flex-end;
+	height: 50vh;
+}
+
+.box {
+	width: 50px;
+	background: blue;
+	border: 2px solid tomato;
+}*/
+
+
+
+
+
+/*-------------------------------------------------------------align-items--------------------------------------------------------------*/
+
+/*Example 15*/
+/*.container {
+	border: 2px solid blue;
+	display: flex;
+	height: 200px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box {
+	width: 50px;
+	background: tomato;
+	border: 1px solid white;
+}
+*/
+
+
+/*--------------------------------------------------------------align-items-------------------------------------------------------------*/
+
+/*Example 16*/
+/*.container {
+	border: 2px solid blue;
+	display: flex;
+	height: 200px;
+	justify-content: space-around;
+	align-items: stretch;   By default items alignment are stretched.
+}
+
+.box {
+	width: 50px;
+	background: tomato;
+	border: 1px solid white;
+}*/
+
+/*--------------------------------------------------------------align-items-------------------------------------------------------------*/
+
+/*Example 17*/
+/*.container {
+	border: 2px solid blue;
+	height: 200px;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-around;
+
+}
+
+.box {
+	width: 50px;
+	background: tomato;
+	border: 1px solid white;
+}
+.box:nth-child(3) {
+	font-size: 80px
+}*/
+
+
+/*-----------------------------------------------------align-content----------------------------------------------------------------------*/
+
+/*Example 18*/
+/*.container {
+	display:flex;
+	border: 2px solid black;
+	height: 200px;
+	flex-wrap: wrap;
+	align-content: stretch;  Default value
+}
+.box {
+	border: 2px solid white;
+	background: tomato;
+	width: 20%;
+}
+*/
+
+/*------------------------------------------------------align-content---------------------------------------------------------------------*/
+/*Example 19*/
+/*.container {
+	display:flex;
+	border: 2px solid black;
+	height: 200px;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.box {
+	border: 2px solid white;
+	background: tomato;
+	width: 20%;
+}*/
+
+
+/*------------------------------------------------------align-content---------------------------------------------------------------------*/
+/*Example 20*/
+/*.container {
+	display:flex;
+	border: 2px solid black;
+	height: 100px;
+	flex-wrap: wrap;
+	align-content: space-between;
+	flex-direction: column;
+}
+.box {
+	border: 2px solid white;
+	background: tomato;
+	width: 20%;
+}*/
+
+
+
+/*-------------------------------------------flex-grow--------------------------------------------------------------------------------*/
+/*Example 21*/
+/*.container {
+	display:flex;
+	border: 2px solid black;
+	height: 100px;
+}
+.box {
+	border: 2px solid white;
+	background: tomato;
+	flex-grow: 1;  assigns width to all boxes relative to its parent equally
+}
+.box:nth-child(2) {
+	flex-grow: 3;  here the 2nd child will take 3 times of width of its siblings
+}*/
+
+
+/*----------------------------------flex: flex-grow flex-shrink flex-basis;--------------------------------------------------------------------------------*/
+/*Example 22*/
+/*.container {
+	display:flex;
+	border: 2px solid black;
+	height: 500px;
+	flex-direction: column;
+}
+.box {
+	border: 2px solid white;
+	background: tomato;
+	width: 150px; 
+}
+.box:nth-child(2) {
+	flex: 2 3 30px; 
+}*/
+
+
+/*-------------------------------------------align-self-----------------------------------------------------------------------*/
+/*Example 23*/
+/*.container {
+	display:flex;
+	border: 2px solid black;
+	height: 500px;
+}
+.box {
+	border: 2px solid white;
+	background: tomato;
+	width: 50px; 
+	align-self: center;
+
+
+}
+.box:nth-child(2) {
+	align-self: flex-end; 
+}
+*/
+
+
+/*-------------------------------------------align-self-----------------------------------------------------------------------*/
+/*Example 24*/
+/*.container {
+	display:flex;
+	border: 2px solid black;
+	height: 200px;
+}
+.box {
+	border: 2px solid white;
+	background: tomato;
+	width: 50px; 
+	align-self: center;
+
+
+}
+.box:nth-child(2) {
+	align-self: stretch; 
+	height: auto;
+}*/
+
+
+
+/*-------------------------------------------align-self-----------------------------------------------------------------------*/
+/*Example 25*/
+/*.container {
+	display:flex;
+	border: 2px solid black;
+	height: 500px;
+}
+.box {
+	border: 2px solid white;
+	background: tomato;
+	width: 50px; 
+	align-self: center;
+
+
+}
+.box:nth-child(2) {
+	align-self: flex-end; 
+}
+*/
+
+
+
+/*-------------------------------------------flex-Items----------------------------------------------------------------------*/
+.container {
+	display: flex;
+	/*flex-wrap: wrap;*/
+	border: 2px solid red;
+	margin-bottom: 2vh;
+}
+.first {
+	flex-direction: column;
+}
+.container-third {
+	border: 1px solid blue;
+	display: flex;
+	flex-flow: row wrap;  /*combines flex-direction and flex-wrap*/
+
+}
+.third-box {
+	background: tomato;
+	border: 1px solid red;
+	width: 30%;
+
+}
+.box{
+	background: green;
+	border: 2px solid yellow;
+	width: 10px;
+}
